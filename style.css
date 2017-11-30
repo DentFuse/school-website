@@ -5,7 +5,7 @@ body{
 }
 header {
   top: 0px;
-  background-color: #c280ffb3;
+  background-color: #88a6ea;
   position:fixed;
   width: 100%;
   overflow: hidden;
@@ -20,7 +20,7 @@ header a{
 }
 @keyframes headerlinkstart {
   from {
-    background-color :#962cf9b3;
+    background-color :#962cf9;
   }
   to {
     background-color: #88a6ea;
@@ -31,7 +31,7 @@ header a{
     background-color:#88a6ea ;
   }
   to {
-    background-color :#962cf9b3;
+    background-color :#962cf9;
   }
 }
 header a:hover{
