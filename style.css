@@ -1,0 +1,65 @@
+body{
+  padding:0px;
+  margin:0px;
+  background-image: url(background.png);
+}
+header {
+  top: 0px;
+  background-color: #c280ffb3;
+  position:fixed;
+  width: 100%;
+  overflow: hidden;
+}
+header a{
+  text-decoration: none;
+  padding: 14px 16px;
+  float:left;
+  text-align: center;
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+}
+@keyframes headerlinkstart {
+  from {
+    background-color :#962cf9b3;
+  }
+  to {
+    background-color: #88a6ea;
+  }
+}
+@keyframes headerlinkend {
+  from {
+    background-color:#88a6ea ;
+  }
+  to {
+    background-color :#962cf9b3;
+  }
+}
+header a:hover{
+  animation-name: headerlinkend;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+header a{
+  animation-name: headerlinkstart;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+#maintxt {
+  font-size: 100px;
+  text-align: center;
+  padding-top: 50px;
+  color: #ce3d3d;
+}
+#canvas{
+  background-color: white;
+  margin: 20px;
+  margin-top: 200px;
+  padding: 40px;
+  border-radius: 15px 25px;
+}
+.center {
+  text-align: center;
+}
+.credits{
+  color: rgb(70, 71, 71);
+}
