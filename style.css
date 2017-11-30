@@ -58,7 +58,7 @@ header a{
   border-radius: 15px 25px;
   padding-top: 20px;
 }
-.center {
+.text-center {
   text-align: center;
 }
 .credits{
@@ -67,4 +67,10 @@ header a{
 .canvasheading{
   font-size: 40px;
   text-decoration: underline;
+}
+.col {
+  width: 550px;
+}
+.clearfix {
+    overflow: auto;
 }
