@@ -69,7 +69,7 @@ header a{
   text-decoration: underline;
 }
 .col {
-  width: 550px;
+  width: 48%;
 }
 .clearfix {
     overflow: auto;
